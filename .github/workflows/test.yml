@@ -4,7 +4,7 @@ concurrency:
 
 on:
   push:
-    branches: [main]
+    branches: [main,ci-workflow,no-callstack-inlines]
   pull_request:
     types: [opened, repoened, synchronize]
 
